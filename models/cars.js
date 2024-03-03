@@ -11,13 +11,13 @@ const carSchema = mongoose.Schema ({
         required: true
     },
 
-    phone_number: {
-        type: number ,
+    phonenumber: {
+        type: Number ,
         required: true
     },
 
     rentperday: {
-        type: number ,
+        type: Number ,
         required: true
     },
 
